@@ -4,10 +4,14 @@
 codeB.pyを自分が一元化したいソースコードのトップディレクトリにおいて、実行してください。
 深いディレクトリにあるファイルも一元化してくれます。
 実行の前に、モジュールのインストールが必要です。
+```cmd
 pip install pathspec
+```
 
 次に、
+```cmd
 python codeB.py を実行すると同じディレクトリにcode_output.txtが生成されます。
+```
 
 codeB.pyをソースを一元化したいフォルダへコピーして、実行すればそのアプリのソースが一元化されます。
 
@@ -23,6 +27,7 @@ codeB.pyの、
 HARDCODED_EXCLUDE_PATTERNSの配列にファイル名やディレクトリ名を入れれば良いです。
 
 ディレクトリ構成でいうとこうなります。
+```cmd
 C:\Users\sinzy\py_kindle
 │  codeB.py         <=除外対象
 │  code_output.txt  <=除外対象
@@ -34,5 +39,6 @@ C:\Users\sinzy\py_kindle
         kindle_shot3.py <=除外対象（test1フォルダを除外にしている）
 └─test2
         kindle_shot4.py <=出力
+```
 
 以上です。
