@@ -1,6 +1,7 @@
 # Kindle Screenshot Automation
 
-これは、mac用です。
+# これは、mac用です。
+# 利用するのは、macフォルダのkindle_screenshot5.scptです。
 
 ## 使える本と使えない本
  1. はっきりしたことは分からないが、元々画像だったkindleは多分文字起こしできない。
